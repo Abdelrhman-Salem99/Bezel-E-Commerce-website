@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*************************************/
+
+
+/***************** frist section ********************/
+.navbar-nav li{
+    display: inline-block;
+    padding-left: 15px;
+   font-size: 13px;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+.navbar-nav li:hover{
+    opacity: 0.8;
+}
+
+#head  ul li a{
+    color: black;
+}
+
+#head .header-social {
+
+    list-style: none;
+    position: relative;
+}
+#head .container-fluid::after{
+    content: "";
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+}
+.header-social ul{
+    list-style: none;
+}
+.header-social ul li{
+    display: inline-block;
+    padding-left: 15px;
+   font-size: 13px;
+   transition: all 0.5s;
+}
+#head .header-social ul li:hover{
+    opacity: 0.7;
+} 
+.menu-extras{
+    float: right;
+    margin-right: -15px;
+    position: relative;
+    z-index: 20;
+}
+
+
+#head .layer{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#head .btn-color {
+    color: #fff;
+    background-color: #00c3da;
+}
+#head .btn-font{
+    font-size: 14px;
+    padding: 12px 25px;
+}
+
+#head .btn-color:hover {
+    color: #fff;
+    background-color: #00c3da;
+}
+#head .slider-cont h1{
+    font-size: 100px;
+    color: white;
+    margin: 10px 0;
+    opacity: 1;
+    animation: moving 1s;
+}
+#head .slider-cont h4{
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+    animation: moving 2s;
+}
+.btn-cont a{
+    position: relative;
+    bottom: 0;
+    transition: all 0.2s;
+}
+.btn-cont a:hover{
+    bottom: 1;
+}
+#head .slider-cont .btn-cont{
+    margin-top: 25px;
+    animation: moving 3s;
+}
+@keyframes moving{
+    0%{
+            opacity: 0;
+           
+    }
+    50%{
+        transform: scale(0.7,0.7);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1,1);
+    }
+}
+
+#head .slider .bg-img-size{
+    background-size: cover;
+}
+
+@media only screen and (min-width: 1700px){
+    #head .header-social {
+        right: 5%;
+        top: 0;
+        list-style: none;
+    }
+    .header-social ul li{
+        opacity: 0;
+    }
+}
+@media (min-width: 500px){
+#head .slider-cont h1{
+    font-size: 50px;
+}
+#head .slider-cont h4{
+    font-size: 13px;
+   
+}
+}
+/***************** frist section End ********************/
+
+/***************** about section ********************/
+
+
+#about .about-mover{
+    color: #00c3da;
+}
+#about .btn-font{
+    font-size: 13px;
+    padding: 12px 25px;
+    border: 1px solid #dedede;
+}
+#about .font-family{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+#about  h6{
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+#about .font-family p{
+    color: #787878;
+    font-family: 'Poppins', sans-serif;
+}
+
+#about .about-mover::after{
+    content: "";
+    border-right: 2px solid ;
+    animation: 5s alternate infinite who-we-are-move;
+}
+
+@keyframes who-we-are-move{
+    1%{
+        content: "";
+    }
+    2%{
+        content: "a";
+    }
+    3%{
+        content: "ap";
+    }
+    4%{
+        content: "app";
+    }
+    5%{
+        content: "apps";
+    }
+    20%{
+        content: "apps";
+    }
+    21%{
+        content: "app";
+    }
+    22%{
+        content: "ap";
+    }
+    23%{
+        content: "a";
+    }
+    24%{
+        content: "";
+    }
+    39%{
+        content: "";
+    }
+    40%{
+        content: "w";
+    }
+    41%{
+        content: "we";
+    }
+    42%{
+        content: "web";
+    }
+    43%{
+        content: "webs";
+    }
+    44%{
+        content: "websi";
+    }
+    45%{
+        content: "websit";
+    }
+    46%{
+        content: "website";
+    }
+    47%{
+        content: "websites";
+    }
+    60%{
+        content: "websites";
+    }
+    61%{
+        content: "website";
+    }
+    62%{
+        content: "websit";
+    }
+    63%{
+        content: "websi";
+    }
+    64%{
+        content: "webs";
+    }
+    65%{
+        content: "web";
+    }
+    66%{
+        content: "we";
+    }
+    67%{
+        content: "w";
+    }
+    68%{
+        content: "";
+    }
+    80%{
+        content: "";
+    }
+    81%{
+        content: "s";
+    }
+    82%{
+        content: "so";
+    }
+    83%{
+        content: "sof";
+    }
+    84%{
+        content: "soft";
+    }
+    85%{
+        content: "softw";
+    }
+    86%{
+        content: "softwa";
+    }
+    87%{
+        content: "softwar";
+    }
+    88%{
+        content: "software";
+    }
+    89%{
+        content: "softwares";
+    }
+    100%{
+        content: "softwares";
+    }
+    
+}
+/***************** about section End ********************/
+
+
+/***************** team section ********************/
+#team{
+    padding:110px 0;
+}
+#team h2{
+    font-size: 80px;
+    opacity: 0.1;
+    font-weight: 900;
+}
+#team h3{
+    position: absolute;
+    top: 5;
+    left: 50%;
+    font-size: 38px;
+    font-weight: 900;
+    transform: translate(-50% , 65%);
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255,0.5);
+}
+#team p{
+    padding: 20px 0;
+}
+
+
+#team .team-member{
+   overflow: hidden;
+   margin-top: 20px;
+}
+#team .team-member:hover .team-layer{
+    bottom: 0;
+    opacity: 1;
+   background-color: rgba(0, 195, 218, 0.8);
+   		
+}
+#team .team-layer{
+    bottom: -20;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+#team .team-layer-icon{
+    margin-bottom: 0px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+#team .team-layer-icon i{
+   padding-right: 10px;
+}
+#team .team-layer-title{
+    margin-top: 80px;
+    padding-top: 100px;
+}
+#team .team-layer-title h5{
+    font-size: 13px;
+    font-weight: 900;
+    padding-left: 10px;
+}
+#team .team-layer-title p{
+    font-size: 12px;
+    padding: 0;
+    padding-left:10px;
+}
+@media only screen and (min-width: 800px){
+    #team .team-layer-title{
+        margin-top: 50px;
+        padding-top: 30px;
+    }
+}
+/***************** team section End ********************/
+
+/***************** what-we-do section  ********************/
+
+#what-we-do{
+    padding: 100px 0;
+    background-color: #636363;
+}
+#what-we-do .icon-font-color{
+    font-size: 40px;
+    color: #007067;
+}
+#what-we-do h2{
+    font-size: 80px;
+    font-weight: 900;
+    opacity: 0.1;
+}
+#what-we-do h3{
+    position: absolute;
+    top: 40;
+    left: 5;
+    font-size: 38px;
+    font-weight: 900;
+    transform: translateX(3%);
+   
+  
+}
+#what-we-do span{
+    font-family: 'Source Sans Pro', sans-serif;
+  
+}
+#what-we-do .what-icon{
+   margin-top: 25px;
+   margin-left: 150px;
+  
+}
+#what-we-do .what-icon li{
+   padding-top: 15px;
+  
+}
+#what-we-do .what-icon span{
+   margin-left: 10px;
+  
+}
+#what-we-do .what-icon ul{
+   list-style: none;
+  
+}
+
+
+/***************** what-we-do section End ********************/
+
+
+/***************** Cheap Prices section  ********************/
+#price{
+    padding: 100px 0;
+    background-color: #f7f7f7;
+}
+
+#price .price-opacity h2{
+    font-size: 80px;
+    font-weight: 900;
+    opacity: 0.1;
+}
+#price .price-opacity h3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 38px;
+    font-weight: 900;
+    transform: translate(-50% , 70%);
+    padding-bottom: 10px;
+  
+}
+#price .price-opacity p{
+    color: #787878;
+  
+}
+#price .price-card {
+  padding: 45px 35px;
+  margin-top: 25px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+  transition: all 0.5s;
+}
+#price .price-card:hover{
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.2);
+}
+#price .price-card .price-head h4{
+  font-size: 13px;
+}
+#price .price-card .best-value{
+  position: absolute;
+  top: 40;
+  right: 35;
+  font-size: 9px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #00c3da;
+  border: 1px solid white;
+}
+#price .price-num{
+    border-bottom: 1px solid rgba(120, 120, 120, 0.1);
+}
+#price .price-num h2{
+    padding:15px 0 ;
+    font-size: 55px;
+}
+#price .price-num span{
+    font-size: 20px;
+    vertical-align: top;
+  
+}
+#price .features ul{
+    list-style: none;
+    margin-top: 20px;
+    
+  
+}
+#price .features li{
+    padding: 10px 0;
+}
+#price .features li h5{
+    font-size: 13px;
+    color: #787878;
+}
+
+#price .price-footer a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 195, 218);
+}
+#price .scaled{
+    transform: scale(1.08);
+}
+
+/***************** Cheap Prices section End ********************/
+
+
+/***************** CUSTOMERS section  ********************/
+#customer{
+    padding: 100px 0;
+    background-color: #f7f7f7;
+}
+
+
+#customer .happy-customer-title{
+    margin-bottom: 70px;
+}
+#customer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translateY(-50px);
+}
+#customer .inside-padding{
+    padding: 0 40px;
+   
+}
+
+#customer .slider-w{
+    width: 60%;
+}
+#customer .customer-info{
+    padding:0 75px 50px 70px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+#customer .customer-info span{
+    font-size: 13px;
+}
+#customer .customer-info p{
+    padding-top: 30px;
+    color: #787878;
+}
+#customer .carousel-inner{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+#customer .carousel-indicators .active {
+    background-color: #00c3da !important;
+}
+#customer .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#customer .prev-icon{
+    margin-right: 100px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: -100;
+    transition: all 0.5s;
+}
+#customer .prev-icon:hover{
+    color: #00c3da;
+    left: -110;
+}
+#customer .next-icon{
+    margin-right: 100px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    right: -200;
+    transition: all 0.5s;
+}
+#customer .next-icon:hover{
+    color: #00c3da;
+    right: -210;
+}
+
+
+/***************** CUSTOMERS section End ********************/
+
+
+/***************** contact section End ********************/
+
+#contact h2{
+    font-size: 80px;
+    opacity: 0.1;
+    font-weight: 900;
+}
+#contact h3{
+    position: absolute;
+    top: 25;
+    left: 0;
+    font-size: 38px;
+    font-weight: 900;
+    transform: translate(7%,33%);
+  
+}
+
+#contact .contact-form-padding{
+   padding-top: 100px;
+}
+#contact form label{
+   font-size: 12px;
+   color: black;
+}
+#contact form .form-items{
+   margin-bottom: 20px;
+}
+#contact form .form-items textarea{
+   height: 100px;
+}
+#contact form .form-control{
+   display: block;
+   width: 70%;
+   height: 40px;
+   border: 1px solid #ccc;
+}
+#contact form button{
+    color: #fff;
+    background-color: #00c3da;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+
+/***************** contact section End ********************/
